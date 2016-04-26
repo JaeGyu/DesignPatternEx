@@ -2,6 +2,7 @@ package sigleton;
 
 public class SingletonCase3 {
 	private SingletonCase3() {
+		System.out.println("case3방식으로 생성됨");
 	}
 
 	private static class SingleHolder {
